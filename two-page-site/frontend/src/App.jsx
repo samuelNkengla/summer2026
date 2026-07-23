@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { BrowserRouter, Link, Route, Routes, useParams } from "react-router-dom";
 import "./App.css";
 
-const API_URL = "http://127.0.0.1:8000";
+const API_URL = "";
 
 function Page() {
   const { slug = "home" } = useParams();
